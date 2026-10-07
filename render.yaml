@@ -10,3 +10,5 @@ services:
         value: "avnadmin"
       - key: WORDPRESS_DB_NAME
         value: "defaultdb"
+      - key: WORDPRESS_DB_PASSWORD
+        sync: false
