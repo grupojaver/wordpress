@@ -1,7 +1,7 @@
 services:
   - type: web
     name: wordpress-tool
-    env: docker
+    image: wordpress:latest
     plan: free
     envVars:
       - key: WORDPRESS_DB_HOST
