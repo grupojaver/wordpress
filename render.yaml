@@ -5,8 +5,8 @@ services:
     plan: free
     envVars:
       - key: WORDPRESS_DB_HOST
-        value: "tu-host-de-aiven:puerto"
+        value: "javer-grupojaver-ae8e.d.aivencloud.com:22293"
       - key: WORDPRESS_DB_USER
-        value: "tu-usuario"
+        value: "avnadmin"
       - key: WORDPRESS_DB_NAME
-        value: "tu-nombre-de-base-de-datos"
+        value: "defaultdb"
